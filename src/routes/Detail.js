@@ -13,8 +13,8 @@ function Detail() {
     ).json();
     setMovieDetail(json.data.movie);
     setLoading(false);
-    console.log(json);
-    console.log(json.data.movie);
+    // console.log(json);
+    // console.log(json.data.movie);
   };
 
   useEffect(() => {
